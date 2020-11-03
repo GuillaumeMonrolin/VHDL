@@ -24,11 +24,11 @@ architecture test of bench_exercice1 is
 	end component;
 
 	-- definition de signaux de test	
-	signal A_S : bit;
-	signal B_S : bit;
-	signal C_S : bit;
-	signal D_S : bit;
-	signal ctl_S : bit;
+	signal A_S : integer;
+	signal B_S : integer;
+	signal C_S : integer;
+	signal D_S : integer;
+	signal ctl_S : std_logic;
 
 begin
 
@@ -43,9 +43,10 @@ begin
     );
 
     -- Generation des stimulis
-    A_S   <= not B_S   after 20 ns;
-    ctl_S   <= not A_S   after 30 ns;
-    B_S   <= not A_S   after 40 ns;
-    A_S   <= not B_S   after 20 ns;
+    ctl_S <= '0'   after 10 ns;
+    A_S   <= 0   after 10 ns;
+    B_S   <= 1 after 10 ns;
+    ctl_S <= '1'   after 30 ns;
+    B_S   <= 1   after 40 ns;
 
 end architecture;

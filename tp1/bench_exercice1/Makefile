@@ -1,4 +1,4 @@
-TOP=exercice1
+TOP=bench_exercice1
 WAVE=$(TOP)_wave.ghw
 
 all: analyze elaborate
@@ -7,7 +7,7 @@ analyze:
 	#
 	# etape d'analyse des entites/architectures
 	#
-	ghdl -a --work=TP_LIB --ieee=synopsys -fexplicit ../$(TOP).vhd
+	ghdl -a --work=TP_LIB --ieee=synopsys -fexplicit ../exercice1.vhd
 	ghdl -a --work=TP_LIB --ieee=synopsys -fexplicit $(TOP).vhd
 
 elaborate:
@@ -20,7 +20,7 @@ run:
 	#
 	# attention a definir le temps de simulation qu'il vous faut
 	#
-	ghdl -r --work=TP_LIB --ieee=synopsys -fexplicit $(TOP) --wave=$(WAVE) --stop-time=200ns
+	ghdl -r --work=TP_LIB --ieee=synopsys -fexplicit $(TOP) --wave=$(WAVE) --stop-time=50ns
 
 view:
 	gtkwave $(WAVE)
