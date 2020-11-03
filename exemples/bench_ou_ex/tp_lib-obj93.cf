@@ -1,0 +1,7 @@
+v 4
+file . "bench_ou_ex.vhd" "e5b68a752c8381f042d7ab8bfb5ae66f9401c582" "20201102160344.411":
+  entity bench_ou_ex at 3( 102) + 0 on 13;
+  architecture test of bench_ou_ex at 16( 385) + 0 on 14;
+file . "../ou_ex.vhd" "534c3f8bbba64384bb86bb20169fc9d2090a8353" "20201102160344.399":
+  entity ou_ex at 4( 91) + 0 on 11;
+  architecture dataflow of ou_ex at 17( 287) + 0 on 12;

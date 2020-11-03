@@ -1,0 +1,4 @@
+v 4
+file . "ou_ex.vhd" "534c3f8bbba64384bb86bb20169fc9d2090a8353" "20201102160314.894":
+  entity ou_ex at 4( 91) + 0 on 11;
+  architecture dataflow of ou_ex at 17( 287) + 0 on 12;

@@ -1,0 +1,45 @@
+------------------------------------------------------------------------------
+Exemple 1 : modele 'dataflow'
+------------------------------------------------------------------------------
+Il s'agit d'une entité qui definit une porte logique xor :
+
+ - L'entite/architecture sont definies dans le fichier ou_ex.vhd
+ - Le banc de test est défini dans bench_ou_ex/bench_ou_ex.vhd
+ - Un Makefile est aussi disponible dans le dossier bench_ou_ex :
+Il permet de analyser/élaborer le modèle, ainsi que d'exécuter la simulation
+
+Pour utiliser le Makefile (dans cet exemple ou n'importe quel autre) :
+Attention, le fichier Makefile doit analyser chaque .vhd associé à votre modèle.
+Par default tout est analysé/élaboré dans une bibliotheque appelée TP_LIB
+
+1. Se déplacer dans le bon dossier de test :
+     cd bench_nom_modele
+2. Exécuter l'analyse et l'elaboration :
+     make
+3. Générer le ficier des traces (chronogramme des signaux)
+     make run
+4. Exécuter Gtkwave et voir les résultats
+     make view
+
+Une fois Gtkwave ouvert :
+ - Sélectionez à gauche tous les signaux (avec shift + click gauche)
+ - Cliquez sur "Insert"
+ - Cliquez sur les boutons Zoom (+) ou (-) pour changer l'échelle de la simulation et observer les résultats
+
+5. N'oubliez pas de nettoyer votre répertoire à l'aide de la commande :
+     make clean
+
+------------------------------------------------------------------------------
+Exemple 2 : modele 'structural'
+------------------------------------------------------------------------------
+Il s'agit d'une entité qui contient deux portes xor interconnectées en cascade :
+
+ - Ce modèle utilise l'entité définie dans l'exemple 1
+ - L'entité/architecture structurale sont définies dans le fichier ou_ex_suite.vhd
+ - Le banc de test est defini dans bench_ou_ex_suite/bench_ou_ex_suite.vhd
+ - Un Makefile est disponible dans le dossier bench_ou_ex_suite
+   (quelques changements par rapport au premier Makefile fourni)
+
+Vous pouvez suivre la même procedure de l'exemple 1 pour tester ce nouveau modèle.
+Attention, la hierarchie complète de votre modèle structural est montrée à gauche.
+Vous pouvez sélectioner les signaux ou composants souhaites.
