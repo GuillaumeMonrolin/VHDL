@@ -1,0 +1,9 @@
+v 4
+file . "bench_exercice1_res.vhd" "9d1c4040fdfe184ae00f1e01e503e871cd718920" "20201103155523.646":
+  entity bench_exercice1_res at 3( 100) + 0 on 21;
+  architecture test of bench_exercice1_res at 16( 382) + 0 on 22;
+file . "../exercice1.vhd" "428197eec2080a74743f4da0d77f5c4335cb1784" "20201103155523.635":
+  entity exercice1 at 4( 62) + 0 on 17;
+  architecture flot of exercice1 at 17( 282) + 0 on 18;
+  entity res at 23( 399) + 0 on 19;
+  architecture str of res at 33( 574) + 0 on 20;

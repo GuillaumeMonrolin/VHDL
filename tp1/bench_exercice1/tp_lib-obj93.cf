@@ -1,7 +1,9 @@
 v 4
-file . "bench_exercice1.vhd" "0008a8937565bb7b3349a9ecad6e95a26c4444a1" "20201103135836.488":
-  entity bench_exercice1 at 3( 100) + 0 on 15;
-  architecture test of bench_exercice1 at 16( 378) + 0 on 16;
-file . "../exercice1.vhd" "6e606a2ff43d5bb83945e2f632afd11c2eda46c5" "20201103135836.479":
-  entity exercice1 at 4( 62) + 0 on 13;
-  architecture flot of exercice1 at 17( 282) + 0 on 14;
+file . "bench_exercice1.vhd" "10954353355c3178440fa285460424912013f648" "20201103152902.919":
+  entity bench_exercice1 at 3( 100) + 0 on 21;
+  architecture test of bench_exercice1 at 16( 378) + 0 on 22;
+file . "../exercice1.vhd" "484639962bcbadb6ea35df99db4cec0fa15a81ab" "20201103152902.910":
+  entity exercice1 at 4( 62) + 0 on 17;
+  architecture flot of exercice1 at 17( 282) + 0 on 18;
+  entity res at 23( 399) + 0 on 19;
+  architecture str of res at 33( 578) + 0 on 20;
