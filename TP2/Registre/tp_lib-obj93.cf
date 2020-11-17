@@ -1,0 +1,7 @@
+v 4
+file . "tb_Registre.vhd" "599d13e5bfbd1b0219ce292699de32c9d5339c36" "20201109204733.859":
+  entity tb_registre at 1( 0) + 0 on 13;
+  architecture tb_registre_test of tb_registre at 8( 117) + 0 on 14;
+file . "Registre.vhd" "6d7202a5a399728557c992b7e5863fc504ed41f4" "20201109204733.828":
+  entity registre at 1( 0) + 0 on 11;
+  architecture regn of registre at 19( 327) + 0 on 12;

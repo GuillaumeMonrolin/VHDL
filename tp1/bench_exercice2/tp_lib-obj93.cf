@@ -1,0 +1,7 @@
+v 4
+file . "../exercice2.vhd" "94802942c66b299d0461296d70693faa20357649" "20201103161816.321":
+  entity add at 4( 62) + 0 on 33;
+  architecture flot of add at 16( 262) + 0 on 34;
+file . "bench_exercice2.vhd" "c9222162f032aa5915c6be30c68676600f80c884" "20201103161816.330":
+  entity bench_exercice2 at 3( 100) + 0 on 35;
+  architecture test of bench_exercice2 at 16( 372) + 0 on 36;
