@@ -1,0 +1,7 @@
+v 4
+file . "bench_add.vhd" "fd442fccfdfc282be1f8ed4baf6b1909ca4cea39" "20201103155547.600":
+  entity bench_add at 2( 29) + 0 on 17;
+  architecture test of bench_add at 15( 289) + 0 on 18;
+file . "../add.vhd" "3c4827c3de59f17e8bd80cc70dd0c4726fa92976" "20201103155547.589":
+  entity add at 2( 14) + 0 on 15;
+  architecture flot of add at 17( 273) + 0 on 16;

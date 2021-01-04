@@ -1,0 +1,159 @@
+$date
+  Tue Nov 17 16:36:11 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module bench_inverseur $end
+$var reg 4 ! x_s[3:0] $end
+$var reg 4 " s_s[3:0] $end
+$var reg 4 # x_u[3:0] $end
+$scope module dut $end
+$var reg 4 $ x[3:0] $end
+$var reg 4 % s[3:0] $end
+$scope module inverse_inst(0) $end
+$upscope $end
+$scope module inverse_inst(1) $end
+$upscope $end
+$scope module inverse_inst(2) $end
+$upscope $end
+$scope module inverse_inst(3) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b0001 !
+b1110 "
+b0001 #
+b0001 $
+b1110 %
+#5000000
+b0010 !
+b1101 "
+b0010 #
+b0010 $
+b1101 %
+#10000000
+b0011 !
+b1100 "
+b0011 #
+b0011 $
+b1100 %
+#15000000
+b0100 !
+b1011 "
+b0100 #
+b0100 $
+b1011 %
+#20000000
+b0101 !
+b1010 "
+b0101 #
+b0101 $
+b1010 %
+#25000000
+b0110 !
+b1001 "
+b0110 #
+b0110 $
+b1001 %
+#30000000
+b0111 !
+b1000 "
+b0111 #
+b0111 $
+b1000 %
+#35000000
+b1000 !
+b0111 "
+b1000 #
+b1000 $
+b0111 %
+#40000000
+b1001 !
+b0110 "
+b1001 #
+b1001 $
+b0110 %
+#45000000
+b1010 !
+b0101 "
+b1010 #
+b1010 $
+b0101 %
+#50000000
+b1011 !
+b0100 "
+b1011 #
+b1011 $
+b0100 %
+#55000000
+b1100 !
+b0011 "
+b1100 #
+b1100 $
+b0011 %
+#60000000
+b1101 !
+b0010 "
+b1101 #
+b1101 $
+b0010 %
+#65000000
+b1110 !
+b0001 "
+b1110 #
+b1110 $
+b0001 %
+#70000000
+b1111 !
+b0000 "
+b1111 #
+b1111 $
+b0000 %
+#75000000
+b0000 !
+b1111 "
+b0000 #
+b0000 $
+b1111 %
+#80000000
+b0001 !
+b1110 "
+b0001 #
+b0001 $
+b1110 %
+#85000000
+b0010 !
+b1101 "
+b0010 #
+b0010 $
+b1101 %
+#90000000
+b0011 !
+b1100 "
+b0011 #
+b0011 $
+b1100 %
+#95000000
+b0100 !
+b1011 "
+b0100 #
+b0100 $
+b1011 %
+#100000000
+b0101 !
+b1010 "
+b0101 #
+b0101 $
+b1010 %

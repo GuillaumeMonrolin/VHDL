@@ -1,0 +1,78 @@
+$date
+  Mon Dec 14 17:41:52 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module textio $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module std_logic_textio $end
+$upscope $end
+$scope module std_logic_arith $end
+$upscope $end
+$scope module std_logic_unsigned $end
+$upscope $end
+$scope module bench_instdecodeur $end
+$var reg 16 ! x_s[15:0] $end
+$var reg 16 " w_s[15:0] $end
+$var reg 1 # ci_s $end
+$var reg 1 $ sm_s $end
+$var reg 6 % opc_s[5:0] $end
+$var reg 3 & dst_s[2:0] $end
+$var reg 3 ' cn_s[2:0] $end
+$scope module instdecodeur_test $end
+$var reg 16 ( x[15:0] $end
+$var reg 1 ) ci $end
+$var reg 1 * sm $end
+$var reg 6 + opc[5:0] $end
+$var reg 3 , dst[2:0] $end
+$var reg 3 - cn[2:0] $end
+$var reg 16 . w[15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b1110101000001111 !
+b1110101000001111 "
+U#
+U$
+bUUUUUU %
+bUUU &
+bUUU '
+b1110101000001111 (
+U)
+U*
+bUUUUUU +
+bUUU ,
+bUUU -
+b1110101000001111 .
+#20000000
+b0000001000001111 !
+0#
+0$
+b001000 %
+b001 &
+b111 '
+b0000001000001111 (
+0)
+0*
+b001000 +
+b001 ,
+b111 -
+#40000000
+b1010101000001001 !
+b1010101000001001 "
+b1010101000001001 (
+b1010101000001001 .
+#60000000
+b0000101010001111 !
+b101010 %
+b0000101010001111 (
+b101010 +

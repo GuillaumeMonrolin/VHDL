@@ -1,0 +1,7 @@
+v 4
+file . "bench_sub.vhd" "1730921d9a5e219642775e786aad4fb2f7520f9d" "20201104124650.987":
+  entity bench_sub at 2( 29) + 0 on 17;
+  architecture test of bench_sub at 15( 289) + 0 on 18;
+file . "../sub.vhd" "e90e406606c85271c1f0dcfa9c62788f261d2a3d" "20201104124650.970":
+  entity sub at 2( 14) + 0 on 15;
+  architecture flot of sub at 17( 273) + 0 on 16;

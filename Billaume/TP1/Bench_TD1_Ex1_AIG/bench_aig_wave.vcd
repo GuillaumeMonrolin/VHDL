@@ -1,0 +1,72 @@
+$date
+  Tue Nov  3 15:37:27 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module bench_aig $end
+$var integer 32 ! a_s $end
+$var integer 32 " b_s $end
+$var integer 32 # c_s $end
+$var integer 32 $ d_s $end
+$var reg 1 % ctl_s $end
+$scope module aig1 $end
+$var reg 1 & ctl $end
+$var integer 32 ' a $end
+$var integer 32 ( b $end
+$var integer 32 ) c $end
+$var integer 32 * d $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b10000000000000000000000000000000 !
+b10000000000000000000000000000000 "
+b10000000000000000000000000000000 #
+b10000000000000000000000000000000 $
+0%
+0&
+b10000000000000000000000000000000 '
+b10000000000000000000000000000000 (
+b10000000000000000000000000000000 )
+b10000000000000000000000000000000 *
+#10000000
+b1010 !
+b110010 "
+b1010 #
+b110010 $
+b1010 '
+b110010 (
+b1010 )
+b110010 *
+#15000000
+b110010 #
+b1010 $
+1%
+1&
+b110010 )
+b1010 *
+#30000000
+b111100 "
+b111100 #
+b111100 (
+b111100 )
+#40000000
+b1111000 "
+b1111000 #
+b1111000 (
+b1111000 )
+#60000000
+b101000 !
+b101000 $
+b101000 '
+b101000 *

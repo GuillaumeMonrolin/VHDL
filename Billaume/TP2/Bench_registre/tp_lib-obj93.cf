@@ -1,0 +1,7 @@
+v 4
+file . "bench_registre.vhd" "0c811e5ab5a04ffaec2fe23ce13b9f593ef80cfa" "20201117150018.621":
+  entity bench_registre at 2( 29) + 0 on 43;
+  architecture test of bench_registre at 15( 299) + 0 on 44;
+file . "../registre.vhd" "d1b69d791e9c334da955371b709af9d883349bd9" "20201117150018.598":
+  entity registre at 2( 14) + 0 on 41;
+  architecture flot of registre at 22( 357) + 0 on 42;

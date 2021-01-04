@@ -1,0 +1,10 @@
+v 4
+file . "bench_addn.vhd" "f4fcf888493479af4acda949c7e9facd2d12dab8" "20201104124113.374":
+  entity bench_addn at 1( 0) + 0 on 105;
+  architecture str of bench_addn at 14( 196) + 0 on 106;
+file . "../add.vhd" "3c4827c3de59f17e8bd80cc70dd0c4726fa92976" "20201104124113.353":
+  entity add at 2( 14) + 0 on 101;
+  architecture flot of add at 17( 273) + 0 on 102;
+file . "../addn.vhd" "96ca2cc482b75164fc90ba380726029d22d22d10" "20201104124113.362":
+  entity addn at 2( 14) + 0 on 103;
+  architecture flot of addn at 20( 344) + 0 on 104;

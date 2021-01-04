@@ -1,0 +1,10 @@
+v 4
+file . "bench_res_aig.vhd" "3d6200b8abb009a8e624494611dfb498be83ae49" "20201103153030.309":
+  entity bench_res_aig at 1( 0) + 0 on 65;
+  architecture str of bench_res_aig at 12( 200) + 0 on 66;
+file . "../aig.vhd" "60c68e141d8fdde603d115b302b4596838810614" "20201103153030.292":
+  entity aig at 2( 2) + 0 on 61;
+  architecture flot of aig at 16( 254) + 0 on 62;
+file . "../res_aig.vhd" "48e5f2ae09c0c088a60c74169ec7da71fb2e0309" "20201103153030.299":
+  entity res_aig at 2( 2) + 0 on 63;
+  architecture flot of res_aig at 21( 357) + 0 on 64;

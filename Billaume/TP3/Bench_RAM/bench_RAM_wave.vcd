@@ -1,0 +1,79 @@
+$date
+  Mon Dec 14 13:51:39 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module textio $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module std_logic_textio $end
+$upscope $end
+$scope module std_logic_arith $end
+$upscope $end
+$scope module std_logic_unsigned $end
+$upscope $end
+$scope module bench_ram $end
+$var reg 4 ! address_s[3:0] $end
+$var reg 8 " datain_s[7:0] $end
+$var reg 1 # wr_ena_s $end
+$var reg 8 $ dataout_s[7:0] $end
+$scope module ram_test $end
+$var reg 4 % address[3:0] $end
+$var reg 8 & datain[7:0] $end
+$var reg 1 ' wr_ena $end
+$var reg 8 ( dataout[7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b0000 !
+b00000000 "
+0#
+bUUUUUUUU $
+b0000 %
+b00000000 &
+0'
+bUUUUUUUU (
+#10000000
+b0001 !
+b00000010 $
+b0001 %
+b00000010 (
+#20000000
+b0010 !
+b00000011 $
+b0010 %
+b00000011 (
+#30000000
+b0011 !
+b00000100 $
+b0011 %
+b00000100 (
+#40000000
+b0000 !
+b00000001 $
+b0000 %
+b00000001 (
+#50000000
+#60000000
+b0001 !
+b00000010 $
+b0001 %
+b00000010 (
+#70000000
+b0010 !
+b00000011 $
+b0010 %
+b00000011 (
+#80000000
+b0011 !
+b00000100 $
+b0011 %
+b00000100 (

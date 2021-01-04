@@ -1,0 +1,65 @@
+$date
+  Tue Nov 17 10:01:23 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module bench_multiplexeur $end
+$var reg 1 ! sel_s $end
+$var integer 32 " d0_s $end
+$var integer 32 # d1_s $end
+$var integer 32 $ s_s $end
+$scope module dut $end
+$var integer 32 % d0 $end
+$var integer 32 & d1 $end
+$var reg 1 ' sel $end
+$var integer 32 ( s $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+b1000001000 "
+b101101000 #
+b1000001000 $
+b1000001000 %
+b101101000 &
+0'
+b1000001000 (
+#20000000
+1!
+b101101000 $
+1'
+b101101000 (
+#35000000
+b1010111100 "
+b1010111100 %
+#40000000
+0!
+b1010111100 $
+0'
+b1010111100 (
+#60000000
+1!
+b101101000 $
+1'
+b101101000 (
+#80000000
+0!
+b1010111100 $
+0'
+b1010111100 (
+#100000000
+1!
+b101101000 $
+1'
+b101101000 (

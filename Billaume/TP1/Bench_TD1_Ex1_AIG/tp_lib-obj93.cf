@@ -1,0 +1,7 @@
+v 4
+file . "bench_aig.vhd" "0c33365070513caca853d732fe41d291e8e8ba60" "20201103143724.004":
+  entity bench_aig at 3( 2) + 0 on 53;
+  architecture str of bench_aig at 14( 194) + 0 on 54;
+file . "../aig.vhd" "60c68e141d8fdde603d115b302b4596838810614" "20201103143723.984":
+  entity aig at 2( 2) + 0 on 51;
+  architecture flot of aig at 16( 254) + 0 on 52;
